@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: o;
+}
+
+#navbar{
+    border:1px solid white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar1{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#navbar1>a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #525051;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#navbar1 > a:hover{
+    border-bottom:2px solid #141414;
+}
+#navbar2{
+    margin-top: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#navbar3{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#navbar3>a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #525051;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#navbar3 > a:hover{
+    border-bottom:2px solid #141414;
+}
+#bestsellers{
+    border: 1px solid black;
+    width: 100%;
+    height:450px;
+    background-image: url(https://www.bobbibrowncosmetics.com/media/export/cms/mpp/FY22/MPP%20Hero%20Images/MPP-Bestsellers-PC_2x-min.png);
+}
+#bests{
+    margin-top: 210px;
+    margin-left: 610px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    font-size: larger;
+}
+#home{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(163, 158, 158);
+   
+}
+#home1{
+    margin-top: 40px;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+#home1 > a{
+    text-decoration: none;
+    color: #525051;
+   
+}
+#Learn{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+#products{
+    margin-top: 40px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+#products > a{
+    text-decoration: none;
+    color: #525051;
+   
+}
+#Short{
+    width: 90%;
+    height: 60px;
+   margin: auto;
+    
+   
+    border-bottom: 2px solid rgb(163, 158, 158);
+}
+#Shorting{
+    margin-left: 1150px;
+    width: 150px;
+    margin-top: 20px;
+    height: 25px;
+    text-decoration: none;
+    font-size: medium;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    
+    
+}
+#box1{
+    border: 1px solid black;
+}
+#bookbtn{
+    margin:auto;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+#name{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #979c9c;
+}
+#header{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#desc{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cacece;
+}
+#price{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #979c9c;
+}
+#letschat{
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lets{
+    width: 50%;
+    height: 450px;
+    background-color: black;
+    color:white;
+    
+}
+#need{
+    width: 350px;
+    margin-top: 20px;
+
+}
+#glowing{
+    width:300px ;
+    margin-top: 20px;
+}
+#oouter{
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 170px;
+}
+#read{
+    margin-top: 10px;
+}
+#read>a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+#lets1{
+    width: 50%;
+    height: 450px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/02/05/19/beauty-4993470_1280.jpg);
+}
+#mantle{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 50px;
+    color: rgb(59, 59, 59);
+}
+#footer{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    background-color: black;
+    border: 1px solid black
+    
+    
+}
+#footer1{
+    width: 33.3%;
+    height: 400px;
+    border: 1px solid black;
+    color: white;
+}
+#footer2{
+    width: 33.3%;
+    height: 400px;
+    border: 1px solid black;
+    color:white
+}
+#footer3{
+    width: 33.4%;
+    height: 400px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#need_help{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-left: 30px;
+    color: white;
+
+}
+#chart{
+    margin-top: 20px;
+}
+#chart > ul > li >a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 90px;
+    color: white;
+    
+    
+}
+#location{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 40px;
+   color: white;
+   background-color: black;
+   font-size: medium;
+}
+#brown{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-left: 30px;
+    color: white;
+}
+#Access{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#setvet>li{
+    padding-top: 10px;
+}
+#champu>li{
+    padding-top: 10px;
+}
+
+#jng{
+    margin-top: 40px;
+    display: grid;
+    width: 350px;
+    height: 180px;
+    grid-gap: 20px;
+    color: white;
+    background-color: black;
+}
+#email{
+    color: white;
+    background-color: black;
+    padding-right: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: medium;
+}
+#phone{
+    color: white;
+    background-color: black;
+    padding-right: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: medium;
+}
+#sbmt{
+    color: white;
+    background-color: black;
+    padding-right: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: medium;
+}
+#follow{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 30px;
+}

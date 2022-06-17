@@ -1,0 +1,65 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+   
+}
+#checkout_button{
+    margin-top: 10px;
+}
+#paymentmode{
+    display: flex;
+}
+#card{
+    height: 480px;
+    width: 763px;
+    background-color: white;
+    margin-left: 184px;
+    margin-top: 15px;
+}
+
+#debit{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    /* border: 1px solid red; */
+    width: 350px;
+    margin-left: 54px;
+}
+#debit>div{
+    color: black;
+}
+
+#debit_image{
+    margin-left: 46px;
+    width: 330px;
+    height: 20px;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+#debit_image>img{
+    height: 100%;
+    margin-left: 10px;
+}
+
+#cardInputData_div{
+    margin-top: 25px;
+    margin-left: 48px;
+}
+#orderbutton{
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#orderbutton>a{
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 25px;
+}
